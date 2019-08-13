@@ -1,6 +1,6 @@
 # EnviroPhat
 
-You can sense temperature, pressure, light, local color, accelerometer readings, and magnetometer data using EnviroPhat and Raspberry Pi Zero W.
+<b>You can sense temperature, pressure, light, local color, accelerometer readings, and magnetometer data using EnviroPhat and Raspberry Pi Zero W.</b>  You can publish this sensor data to the Tangle or sell it on data marketplaces.  Here are step-by-step instructions.
 
 ## <a  href="https://shop.pimoroni.com/products/enviro-phat">EnviroPhat<br><img src="images/envirophat.png" width=300></a>
 
