@@ -1,6 +1,6 @@
 # Publishing data to the I3 Data Marketplace
 
-<b>This code walkthrough explains how to publish EnviroPhat data to the I3 Data Marketplace.</b>  
+<b>This code walkthrough explains how to publish EnviroPhat data to the I3 Data Marketplace</b>  
 
 ### Setting up your account and registering your product
 Use [Connecting an IoT Device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up to get your API key and password and registering your product.
