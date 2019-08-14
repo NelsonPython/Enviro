@@ -28,6 +28,15 @@ Data is passed using a json format so import json libraries
 ```
 import json
 ```
+Import the IOTA libraries
+```
+from iota import Iota
+from iota import ProposedTransaction
+from iota import Address
+from iota import Tag
+from iota import TryteString
+from json import load
+```
 ### On_connect function
 
 This function connects to the broker and prints the status of the connection
@@ -44,7 +53,7 @@ def on_connect(client, userdata, flags, rc):
 ```
 ### On_message function
 
-This function receives data and stores it in csv format in the enviro.csv file
+This function receives data, stores it in csv format in the enviro.csv file, stores it on the Tangle, and prints it
 
 ```
 def on_message(client, userdata, msg):
@@ -69,6 +78,27 @@ def on_message(client, userdata, msg):
           sensors["temperature"], ",",\
           sensors["pressure"], file=logfile)
     logfile.close()
+```
+Store data on the Tangle
+```    
+    api = Iota('https://nodes.devnet.iota.org:443') 
+    address = '999999999999999999999999999999999999999999999999999999999999999999999999999999999'
+    tx = ProposedTransaction(
+        address=Address(address),
+        #message=TryteString.from_unicode(sensors),
+        message=TryteString.from_unicode(json.dumps(sensors)),
+        tag=Tag('ASTROPIOTAIII'),
+        value=0
+    )
+    print(tx)
+    try:
+        tx = api.prepare_transfer(transfers=[tx])
+    except:
+        print("PREPARE EXCEPTION",tx)
+    try:
+        result = api.send_trytes(tx['trytes'], depth=3, min_weight_magnitude=9)
+    except:
+        print("EXCEPTION", result)
 
     print("\nTimestamp: ", sensors["timestamp"])
     print("Device: ", sensors["device_name"])
