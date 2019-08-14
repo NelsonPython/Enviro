@@ -129,4 +129,4 @@ The payload contains the sensor data.  Once it is printed and published, the scr
 
 ### Example of sensor data being published
 
-{'lux': 519, 'lat': '33.893916', 'city': 'Los Angeles', 'lng': '-118.323411', 'accel': '0.0732421875,-0.83001708984375,0.64324951171875', 'temperature': 33.86856647758932, 'pressure': 101279.19985577944, 'device_name': 'enviroPhat', 'timestamp': '20190812 19:06', 'rgb': '106,101,76', 'heading': 9.72, 'device_owner': 'Nelson@NelsonGlobalGeek.com'}
+{'lux': 519, 'lat': '33.893916', 'city': 'Los Angeles', 'lng': '-118.323411', 'accel': '0.0732421875,-0.83001708984375,0.64324951171875', 'temperature': 33.86856647758932, 'pressure': 101279.19985577944, 'device_name': 'enviroPhat', 'timestamp': '20190812 19:06', 'rgb': '106,101,76', 'heading': 9.72}
