@@ -158,23 +158,4 @@ if __name__ == '__main__':
 
 ### Sample data subscription
 
-![screen capture of data described below](images/subscriptionData.png)
-
-```
-
-Connected flags {'session present': 0}
-Result code 0
-Client_id  <paho.mqtt.client.Client object at 0xb6a218d0>
-
-Timestamp:  20190812 19:06
-Device:  EnviroPhat
-Device owner email:  Nelson@NelsonGlobalGeek.com
-Device location:  Los Angeles  at longitude:  -118.323411  and latitude:  33.893916
-Light:  519
-RGB:  106,101,76
-Accelerometer:  0.0732421875,-0.83001708984375,0.64324951171875
-Heading:  9.72
-Temperature:  33.86856647758932
-Pressure:  101279.19985577944
-
-```
+<img src="images/sub-tangle.png">
