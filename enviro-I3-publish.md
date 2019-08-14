@@ -81,10 +81,10 @@ def getSensorData():
     sensors = {}
     t = datetime.datetime.now()
     sensors["timestamp"] = str(t.strftime('%Y%m%d %H:%M'))
-    sensors["device_name"] = "enviroPhat"
-    sensors["city"] = 'Los Angeles'
-    sensors["lng"] = '-118.323411'
-    sensors["lat"] = '33.893916'
+    sensors["device_name"] = "YOUR ENVIROPHAT"
+    sensors["city"] = 'YOUR CITY'
+    sensors["lng"] = 'YOUR LONGITUDE'
+    sensors["lat"] = 'YOUR LATITUDE'
 
     sensors["lux"] = light.light()
     leds.on()
@@ -103,9 +103,9 @@ Use your account and password.  The topic is the product you are publishing on t
 ```
 if __name__ == '__main__':
 
-    account = 'YourUsername'
-    pw = 'YourPassword'
-    topic = "Los Angeles Weather"
+    account = 'YOUR-USERNAME'
+    pw = 'YOUR-PASSWORD'
+    topic = "YOUR WEATHER STATION"
 
     try:
         pub_client = mqtt.Client(account)
