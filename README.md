@@ -100,3 +100,8 @@ You sell data by publishing it on the I3 Consortium Data Marketplace where subsc
 
 [Retrieving your data subscription](enviro-I3-subscribe.md)
 
+## Planning for the future
+
+- Add the missing retrieving data example
+
+- Remove unnecessary instructions for generating a seed.  Data transactions do not require a seed
