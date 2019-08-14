@@ -1,6 +1,8 @@
 # Storing EnviroPhat data on the Tangle
 
-<b>This code walkthrough explains how use the EnviroPhat environment sensor to sense data and store it on the Tangle.</b>
+<b>This code walkthrough explains how use the EnviroPhat environment sensor to sense data and store it on the Tangle.</b>  [enviro.py](https://github.com/NelsonPython/EnviroPhat/blob/master/code/enviro.py) stores data on the tangle.
+
+### Importing libraries
 
 In order for sensor data to be meaningful, you must record the date and time the sensor reading was taken so import the time and datetime libraries.   
 
