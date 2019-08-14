@@ -5,7 +5,7 @@
 ### Setting up your account and registering your product
 Use [Connecting an IoT Device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up to get your API key and password and registering your product.
 
-Decide how often you will publish data.  [enviro_publish.py](https://github.com/NelsonPython/EnviroPhat/blob/master/code/enviro_publish.py) will publish data one time.  You can use cron to schedule it to publish data periodically, for example, every 30 minutes.  
+Decide how often you will publish data.  [enviro_publish.py](https://github.com/NelsonPython/EnviroPhat/blob/master/code/enviro_publish.py) will publish data one time.  You can use cron or another scheduler to publish data periodically, for example, every 30 minutes.  
 
 ### Importing libraries
 ```
