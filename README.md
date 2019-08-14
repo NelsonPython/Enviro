@@ -42,17 +42,9 @@ pip3 --version
 $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
 
-## Installing the [PyOTA client library](https://github.com/iotaledger/iota.lib.py)
-
-Install the Pyota client library so you can communicate with the [Tangle](https://docs.iota.org/docs/dev-essentials/0.1/concepts/the-tangle)
-
-```
-pip3 install pyota
-```
-
 ## Installing the [Python IOTA Workshop scripts](https://github.com/iota-community/python-iota-workshop)
 
-This workshop includes a step-by-step tutorial teaching the details of sending and receiving transactions to the Tangle.  They provide the foundation for the code used to store sensor data from EnviroPhat.
+This installs the Pyota client library so you can communicate with the [Tangle](https://docs.iota.org/docs/dev-essentials/0.1/concepts/the-tangle).  The workshop includes a step-by-step tutorial teaching the details of sending and receiving transactions to the Tangle.  They provide the foundation for the code used to store sensor data from EnviroPhat.
 
 Clone the github repository, install the workshop code, and run the "hello world" example.
 
