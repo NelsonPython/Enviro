@@ -105,14 +105,14 @@ if __name__ == '__main__':
 
     account = 'YOUR-USERNAME'
     pw = 'YOUR-PASSWORD'
-    topic = "YOUR WEATHER STATION"
+    topic = "YOUR TOPIC NAME"
 
     try:
         pub_client = mqtt.Client(account)
         pub_client.on_connect = on_connect
         pub_client.on_message = on_message
         pub_client.username_pw_set(account, pw)
-        pub_client.connect('18.217.227.236', 1883)      #connect to broker
+        pub_client.connect('I3 MARKETPLACE IP ADDRESS', PORT)      #connect to broker
 
     except Exception as e:
         print("Exception", str(e))
