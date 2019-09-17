@@ -100,7 +100,8 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 
 ## Investigating your data
 
-[Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
+[Charting EnviroPhat data on ThingSpeak](https://thingspeak.com/channels/865246)
+
 
 ## Planning for the future
 
