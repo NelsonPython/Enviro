@@ -87,7 +87,7 @@ Store data on the Tangle
         address=Address(address),
         #message=TryteString.from_unicode(sensors),
         message=TryteString.from_unicode(json.dumps(sensors)),
-        tag=Tag('ASTROPIOTAIII'),
+        tag=Tag('YOURTAG'),
         value=0
     )
     print(tx)
@@ -115,21 +115,13 @@ Store data on the Tangle
 ```
 
 ### test_sub() function
-This is the main loop.  The broker address and port are provided.
+This is the main loop
 
 ```
 def test_sub():
-    '''
-    Broker address: 18.217.227.236 
-    (ec2-18-217-227-236.us-east-2.compute.amazonaws.com)
-    Broker port: 1883
-    '''
-```
-Enter the topic you subscribed to along with your account and password
-```    
-    topic = "LA Weather Station"
-    account = 'YourAccount'
-    pw = 'YourPassword'
+    topic = "YOUR TOPIC"
+    account = 'YOUR USERNAME'
+    pw = 'YOUR PASSWORD'
 ```
 Connect to the broker
 ```
@@ -137,7 +129,7 @@ Connect to the broker
     sub_client.on_connect = on_connect
     sub_client.on_message = on_message
     sub_client.username_pw_set(account, pw)
-    sub_client.connect('18.217.227.236', 1883, 60) #connect to broker
+    sub_client.connect('I3 MARKETPLACE IP ADDRESS', PORT, 60) #connect to broker
     sub_client.subscribe(topic)
 ```
 This script will listen until it is interrupted.  
