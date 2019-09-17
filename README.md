@@ -98,6 +98,10 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 
 [Retrieving your data subscription](enviro-I3-subscribe.md)
 
+## Investigating your data
+
+[Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
+
 ## Planning for the future
 
 - Remove unnecessary instructions for generating a seed.  Data transactions do not require a seed
