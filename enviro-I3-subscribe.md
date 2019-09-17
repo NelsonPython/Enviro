@@ -3,14 +3,14 @@
 <b>This code walkthrough explains how to subscribe to EnviroPhat data published at the I3 Data Marketplace.</b>  EnviroPhat publishes environment data every 30 minutes.
 
 ## Setting up your subscription
-Follow the [Connecting an IoT Device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3) guide and subscribe to LA Weather Station (EnviroPhat)
+Follow the [Connecting an IoT Device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3) guide to purchase Envirophat data.  The guide also contains the I3 Marketplace IP address and port.
 
 ## Subscribing to data
 ```
 #!/usr/bin/python
 
 """
-Purpose:  subscribing to EnviroPhat data from I3 Consortium Data Marketplace at http://eclipse.usc.edu:8000
+Purpose:  subscribing to EnviroPhat data from I3 Marketplace
 """
 ```
 
