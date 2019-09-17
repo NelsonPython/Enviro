@@ -100,6 +100,4 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 
 ## Planning for the future
 
-- Add the missing retrieving data example
-
 - Remove unnecessary instructions for generating a seed.  Data transactions do not require a seed
