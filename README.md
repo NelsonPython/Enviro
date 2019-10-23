@@ -106,5 +106,4 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 
 - Seeds are only needed for sending value transactions
 
-- Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
-https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+- As of October, 2019, Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
