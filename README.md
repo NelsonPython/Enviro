@@ -19,13 +19,7 @@ You can connect remotely using Secure Shell (SSH).  First, you must enable SSH. 
 
 ## Building your device
 
-Solder a pin header to the EnviroPhat board and snap the board onto your Raspberry Pi.  Then, install the EnviroPhat software.
-
-```
-sudo pip3 install envirophat
-```
-
-For other installation methods and details see these [instructions](https://github.com/pimoroni/enviro-phat)
+Solder a pin header to the EnviroPhat board and snap the board onto your Raspberry Pi.  Follow this [tutorial](https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-enviro-phat) to install the EnviroPhat software and test your device.
 
 
 ## Verifying the version of Python
