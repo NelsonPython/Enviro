@@ -35,11 +35,14 @@ $ Python 3.4.2
 pip3 --version
 $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
+## Gathering data
+
+stay tuned...
 
 ## Investigating your data
 
 [Charting EnviroPhat data on ThingSpeak](https://thingspeak.com/channels/865246)
 
-## Learning as we go
+## Known bugs
 
-- As of October, 2019, Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
