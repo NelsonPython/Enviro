@@ -2,11 +2,15 @@
 
 <b>You can sense temperature, pressure, light, local color, accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W.</b>
 
-## <a  href="https://shop.pimoroni.com/products/enviro-phat">Buying Enviro pHat<br><img src="images/enviroPhat.png" width=300></a>
-
-## <a href="https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-zero-w">Buying Raspberry Pi Zero W
+<table><tr><td>
+<a  href="https://shop.pimoroni.com/products/enviro-phat">Enviro pHat<br><br>
+  <img src="images/enviroPhat.png" width=300></a>
+  </td><td>
+<a href="https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-zero-w">Raspberry Pi Zero W<br><br>
 <img src="images/RasPiZeroHeader.jpg" width=200>
-<br>The Raspberry Pi Mega Kit includes a Raspberry Pi Zero W</a> with GPIO header attached plus a 16GB MicroSD memory card with the Raspbian operating system installed.  You can use your own memory card and <a href="https://www.raspberrypi.org/downloads/raspbian/">download and install Raspbian</a> 
+</td></tr></table>
+
+The Raspberry Pi Mega Kit includes a Raspberry Pi Zero W</a> with GPIO header attached plus a 16GB MicroSD memory card with the Raspbian operating system installed.  You can use your own memory card and <a href="https://www.raspberrypi.org/downloads/raspbian/">download and install Raspbian</a> 
 
 ## Interacting with Raspberry Pi Zero W
 
