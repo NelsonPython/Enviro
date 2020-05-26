@@ -1,6 +1,6 @@
 # Enviro
 
-<b>You can sense temperature, pressure, light, local color, accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W.</b>
+<b>You can sense temperature, pressure, light, local color, accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W</b>
 
 <table><tr><td>
 <a  href="https://shop.pimoroni.com/products/enviro-phat">Enviro pHat<br><br>
