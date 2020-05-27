@@ -41,7 +41,7 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
 ## Gathering data
 
-stay tuned...
+<a href="viewData.py">Viewing sensor data</a>
 
 ## Investigating your data
 
