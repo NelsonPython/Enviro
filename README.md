@@ -41,9 +41,9 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
 ## Gathering data
 
-<a href="viewData.py">Viewing sensor data</a>
+<a href="viewData.md">Viewing sensor data</a>
 
-<a href="saveData.py">Saving sensor data</a>
+<a href="saveData.md">Saving sensor data</a>
 
 ## Investigating your data
 
