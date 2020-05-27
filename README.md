@@ -47,7 +47,7 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 
 ## Investigating your data
 
-[Charting EnviroPhat data on ThingSpeak](https://thingspeak.com/channels/865246)
+[Charting Enviro data on ThingSpeak](https://thingspeak.com/channels/865246)
 
 ## Known bugs
 
