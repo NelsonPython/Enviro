@@ -39,15 +39,15 @@ $ Python 3.4.2
 pip3 --version
 $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
-## Gathering data
+## Gathering your data
 
-<a href="viewData.md">Viewing sensor data</a>
+<a href="viewData.md">Watching Enviro sense data</a>
 
-<a href="saveData.md">Saving sensor data</a>
+<a href="saveData.md">Saving sensor data in csv or json format</a>
 
 ## Investigating your data
 
-[Charting Enviro data on ThingSpeak](https://thingspeak.com/channels/865246)
+[Charting sensor data on ThingSpeak](https://thingspeak.com/channels/865246)
 
 ## Known bugs
 
