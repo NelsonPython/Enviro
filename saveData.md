@@ -1,10 +1,6 @@
 <h1>Saving Enviro data</h1>
 
-You can post data to any popular data marketplace by sending it in csv or json format.  
-
-<h3>CSV</h3>
-
-csvEnviro.py will save sensor data in a csv file called enviro.csv in the following format.  You could add latitude, longitude, and device name
+You can post data to any popular data marketplace by sending it in csv or json format.  csvEnviro.py will save sensor data in a csv file called enviro.csv in the following format.  You could add latitude, longitude, and device name.  It will also print sensor data in json format
 
 ```
 Light - enviro["lux"]
@@ -56,7 +52,8 @@ try:
         enviro["heading"] = motion.heading()
         enviro["temperature"] = weather.temperature()
         enviro["pressure"] = weather.pressure()
-        enviro["timestamp"] = datetime.datetime.now()
+        ts = datetime.datetime.now()
+        enviro["timestamp"] = str(ts)
 
         enviro["lng"] = '-118.323411'
         enviro["lat"] = '33.893916'
@@ -76,6 +73,9 @@ try:
 
         out.write(enviro["timestamp"].strftime('%y-%m-%d %H:%M') +"\n")
 
+        #json format
+        print(enviro)
+        
 except Exception as e:
         print(e)
 
