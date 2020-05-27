@@ -45,6 +45,8 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 
 <a href="saveData.md">Saving sensor data in csv or json format</a>
 
+<a href="https://github.com/NelsonPython/DriveI5/blob/master/PublicRadio/enviroTable.md">Saving sensor data in a MySQL database table</a>
+
 ## Investigating your data
 
 [Charting sensor data on ThingSpeak](https://thingspeak.com/channels/865246)
