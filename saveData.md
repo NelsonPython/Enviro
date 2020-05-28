@@ -67,9 +67,10 @@ leds.off()
 out.close()
 ```
 
-Sample data saved in enviro.csv.  To decode this, you must know the column headers are
+Sample data saved in enviro.csv
 
 ```
+lux,RGB_red,RGB_green,RGB_blue,acc_x,acc_y,acc_z,heading,temperature,pressure,location,timestamp
 857.000000,134,115,108,-0.9300537109375,0.26171875,0.09246826171875,4.510000,35.928739,99440,Los Angeles CA USA,2020-05-28 11:17
 857.000000,134,115,108,-0.93218994140625,0.26153564453125,0.1015625,5.440000,35.940641,99442,Los Angeles CA USA,2020-05-28 11:17
 863.000000,134,115,109,-0.9354248046875,0.26141357421875,0.1005859375,7.240000,36.102568,99443,Los Angeles CA USA,2020-05-28 11:20
