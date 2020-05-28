@@ -67,7 +67,7 @@ leds.off()
 out.close()
 ```
 
-Sample data saved in enviro.csv
+Sample data saved in enviro.csv.  I added the column headers to this example.
 
 ```
 lux,RGB_red,RGB_green,RGB_blue,acc_x,acc_y,acc_z,heading,temperature,pressure,location,timestamp
