@@ -1,6 +1,6 @@
 # Enviro
 
-<b>Enviro senses temperature, pressure, light, local color, accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W</b>
+<b>Enviro senses temperature, pressure, light, local color, accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W</b>  Heading is the offset, in degrees, from magnetic north.
 
 <table><tr><td>
 <a  href="https://shop.pimoroni.com/products/enviro-phat">Enviro pHat<br><br>
