@@ -51,7 +51,7 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 
 [Charting sensor data on ThingSpeak](https://thingspeak.com/channels/865246)
 
-[Protecting you from accidently leaving the stove burner on](stove.md)
+[Protecting you from leaving the stove burner on](stove.md)
 
 ## Known bugs
 
