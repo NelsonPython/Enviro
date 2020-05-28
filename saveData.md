@@ -33,7 +33,9 @@ try:
         enviro["heading"] = motion.heading()
         enviro["temperature"] = weather.temperature()
         enviro["pressure"] = weather.pressure()
-        enviro["timestamp"] = datetime.datetime.now()
+
+        ts =  datetime.datetime.now()
+        enviro["timestamp"] = ts.strftime('%Y-%m-%d %H:%M')
 
         enviro["lng"] = '-118.323411'
         enviro["lat"] = '33.893916'
@@ -51,7 +53,7 @@ try:
                 enviro["temperature"], \
                 enviro["pressure"]))
 
-        out.write(enviro["timestamp"].strftime('%y-%m-%d %H:%M') +"\n")
+        out.write(enviro["timestamp"] +"\n")
 
         #print sensor data in json format
         print(enviro)
@@ -66,32 +68,27 @@ out.close()
 Sample enviro.csv
 
 ```
-5154.000000,95,98,103,-0.53741455078125,0.821533203125,0.14166259765625,35.420000,38.998688,99049,Los Angeles CA USA,20-05-26 15:42
-5260.000000,95,97,102,-0.54736328125,0.82244873046875,0.09747314453125,37.210000,39.151736,99051,Los Angeles CA USA,20-05-26 15:45
-895.000000,138,109,100,-0.85943603515625,0.43939208984375,0.14556884765625,338.200000,35.846677,99044,Los Angeles CA USA,20-05-26 15:51
-895.000000,138,110,100,-0.86138916015625,0.43853759765625,0.1348876953125,351.100000,38.174509,99041,Los Angeles CA USA,20-05-26 15:52
-896.000000,138,110,101,-0.85516357421875,0.44140625,0.13079833984375,334.900000,38.465322,99041,Los Angeles CA USA,20-05-26 15:52
+857.000000,134,115,108,-0.9300537109375,0.26171875,0.09246826171875,4.510000,35.928739,99440,Los Angeles CA USA,2020-05-28 11:17
+857.000000,134,115,108,-0.93218994140625,0.26153564453125,0.1015625,5.440000,35.940641,99442,Los Angeles CA USA,2020-05-28 11:17
+863.000000,134,115,109,-0.9354248046875,0.26141357421875,0.1005859375,7.240000,36.102568,99443,Los Angeles CA USA,2020-05-28 11:20
 ```
 <h3>json</h3>
 
 For teaching purposes, most AI Lab experiments send text data in json format.
 
 ```
-{
+{'device_name': 'Enviro', 
 'lat': '33.893916', 
 'lng': '-118.323411', 
-'lux': 835, 
-'RGB_blue': '109', 
-'RGB_green': '116', 
+'lux': 857, 
 'RGB_red': '134', 
-'temperature': 36.13952530025381, 
-'heading': 0.45, 
-'pressure': 99452.24100068159, 
-'device_name': 'Enviro', 
-'acc_x': '-0.9244384765625', 
-'acc_z': '0.08563232421875', 
-'acc_y': '0.25982666015625'
-'timestamp': datetime.datetime(2020, 5, 28, 10, 53, 19, 614797), 
-}
+'RGB_green': '115', 
+'RGB_blue': '108', 
+'pressure': 99440.64663964233, 
+'temperature': 35.92873890723813, 
+'heading': 4.51, 
+'acc_x': '-0.9300537109375'}
+'acc_y': '0.26171875', 
+'acc_z': '0.09246826171875', 
+'timestamp': '2020-05-28 11:17'}
 ```
-
