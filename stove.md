@@ -1,4 +1,4 @@
-<h1>Protecting you from accidentlly leaving the stove burner on</h1>
+<h1>Protecting you from leaving the stove burner on</h1>
 
 <img src="images/burnerOn.png">
 
