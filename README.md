@@ -25,6 +25,8 @@ You can connect remotely using Secure Shell (SSH) but you must enable SSH.  Clic
 
 Solder a pin header to the EnviroPhat board and snap the board onto your Raspberry Pi.  Follow this [tutorial](https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-enviro-phat) to install the EnviroPhat software and test your device.
 
+<b>Known bugs</b>
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
 
 ## Verifying the version of Python
 
@@ -57,5 +59,3 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 
 [Hey - the stove burner is on](stove.md)
 
-<b>Known bugs</b>
-- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
