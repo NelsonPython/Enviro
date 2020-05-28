@@ -2,11 +2,11 @@
 
 <img src="images/burnerOn.jpg">
 
-It can be easy to get distracted and forget to turn off a burner.  Enviro can sense the temperature change when the burner is on.  
+A human can get distracted and forget to turn off a burner.  To begin, Enviro is reporting a temperature change greater than 1 degree Celsius in less than 8 minutes.  This criteria indicates that a burner may have been left on.  In the future, Enviro can improve this criteria based on feedback.
 
 <img src="images/stoveOnGraph.png">
 
-It is programming to send a text using IFTTT webhooks along with pushbullet
+When Enviro determines that a burner has been left on, it sends a text.  It uses IFTTT Webhooks along with Pushbullet so you must install the Pushbullet app to get the text.
 
 <img src="images/IFTTT_burnerOn2.png">
 
@@ -16,6 +16,8 @@ Enviro was not designed to sit beside the burner.  It is not waterproof and coul
 <img src="images/kettle.jpg">
 
 <h3>heatAlert.py</h3>
+
+This script checks the temperature and determines whether the burner has been left on.  In the future, it will learn the best criteria
 
 ```
 import time
@@ -50,6 +52,8 @@ with open('enviro.csv') as csvfile:
 
 <h3>textKitchen_TOO_HOT</h3>
 
+This script sends a text.  <a href="https://thepihut.com/blogs/raspberry-pi-tutorials/using-ifttt-with-the-raspberry-pi">Using IFTTT with Raspberry Pi</a> is a helpful tutorial for setting up Webhooks and Pushbullet
+
 ```
 import requests
 
@@ -68,4 +72,4 @@ if __name__=="__main__":
         textIt(msg)
 ```
 
-<a href="https://thepihut.com/blogs/raspberry-pi-tutorials/using-ifttt-with-the-raspberry-pi">Using IFTTT with Raspberry Pi</a>
+
