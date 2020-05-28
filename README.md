@@ -1,6 +1,6 @@
 # Enviro
 
-<b>Enviro senses temperature, pressure, light, local color, accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W</b>  Heading is the offset, in degrees, from magnetic north.
+<b>Enviro senses temperature, pressure, light, local color (RGB channels), accelerometer readings, and magnetometer data using Enviro pHat sensors and Raspberry Pi Zero W</b>
 
 <table><tr><td>
 <a  href="https://shop.pimoroni.com/products/enviro-phat">Enviro pHat<br><br>
@@ -42,6 +42,9 @@ pip3 --version
 $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
 ## Gathering your data
+
+Sensor readings such as temperature and light are easy to understand.  Heading is the offset, in degrees, from magnetic north.  An accelerometer measures motion.  Here are the <a href="https://learn.sparkfun.com/tutorials/accelerometer-basics/all
+">accelerometer basics</a>
 
 <a href="viewData.md">Watching Enviro sense data</a>
 
