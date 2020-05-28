@@ -51,8 +51,11 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 
 [Charting sensor data on ThingSpeak](https://thingspeak.com/channels/865246)
 
-[Protecting you from leaving the stove burner on](stove.md)
+## Experimenting
 
-## Known bugs
+[What's the temperature on the AV?](https://github.com/NelsonPython/DriveI5)
 
+[Hey - the stove burner is on](stove.md)
+
+<b>Known bugs</b>
 - As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
