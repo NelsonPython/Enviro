@@ -43,8 +43,7 @@ $ pip 1.5.6 from /usr/lib/python3/dist-packages (python 3.4)
 ```
 ## Gathering your data
 
-Sensor readings such as temperature and light are easy to understand.  Heading is the offset, in degrees, from magnetic north.  An accelerometer measures motion.  Here are the <a href="https://learn.sparkfun.com/tutorials/accelerometer-basics/all
-">accelerometer basics</a>
+Sensor readings such as temperature and light are easy to understand.  Heading is the offset, in degrees, from magnetic north.  An accelerometer measures motion.  Here are the <a href="https://github.com/NelsonPython/AI_Lab/blob/master/accelerometer.md">accelerometer basics</a>
 
 <a href="viewData.md">Watching Enviro sense data</a>
 
