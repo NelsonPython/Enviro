@@ -1,4 +1,4 @@
-<h1>Saving Enviro data</h1>
+<h1>Sending sensor data in csv or json format</h1>
 
 You can post data to any popular data marketplace by sending it in csv or json format.  csvEnviro.py will save sensor data in a csv file called enviro.csv in the following format.  You could add latitude, longitude, and device name.  It will also print sensor data in json format
 
