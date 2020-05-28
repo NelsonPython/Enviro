@@ -1,6 +1,8 @@
 <h1>Sending sensor data in csv or json format</h1>
 
-You can post data to any popular data marketplace by sending it in csv or json format.  For teaching purposes, csvEnviro.py will save sensor data in text format in a csv file called enviro.csv.  Saving data in text format and saving data onboard Enviro are not recommended for experiments that gather large quantities of data.  
+<b>You can post data to any popular data marketplace by sending it in csv or json format</b>  
+
+For teaching purposes, csvEnviro.py will save sensor data in text format in a csv file called enviro.csv.  However, saving data in text format and saving data onboard Enviro are not recommended for experiments that gather large quantities of data.  
 
 <h3>csv</h3>
 
