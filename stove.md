@@ -6,7 +6,7 @@ A human can get distracted and forget to turn off a burner.  To begin, Enviro is
 
 <img src="images/stoveOnGraph.png">
 
-When Enviro determines that a burner has been left on, it sends a text.  It uses IFTTT Webhooks along with Pushbullet so you must install the Pushbullet app to get the text.
+When Enviro determines that a burner has been left on, it sends a text.  It uses IFTTT Webhooks along with Pushbullet.  You must install the Pushbullet app on your phone to get the text.
 
 <img src="images/IFTTT_burnerOn2.png">
 
